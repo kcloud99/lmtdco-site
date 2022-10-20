@@ -1,3 +1,9 @@
-export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+import styles from './Header.module.css'
+
+export default function Header() {
+  return (
+    <div className={styles.header}>
+      <img src="/lmtd_logo.png" />
+    </div>
+  )
 }
