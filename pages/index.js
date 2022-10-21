@@ -14,13 +14,13 @@ export default function Home() {
         <h3>A New Way to Sell Verifiable</h3>
         <h1>Limited Edition Luxury Goods</h1>
         <p>Finally a next-generation E-Commerce platform built exclusively for creators who demand the very best for their work. If you want to sell coffee cups and T-Shirts, LMTD is not for you.</p>
-        <div className="button-row">
+        {/* <div className="button-row"> */}
           {/* <button className="filled">LEARN MORE</button> */}
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" className="button-row">
             <input type="text" placeholder='YOUR EMAIL ADDRESS' className='input' />
+            <button className='outline' type="submit">APPLY FOR ACCESS</button>
           </form>
-          <button className='outline'>APPLY FOR ACCESS</button>
-        </div>
+        {/* </div> */}
         <div className='coa'>
           <img className="resp-image" src="/COA.png" />
         </div>
